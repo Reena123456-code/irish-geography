@@ -1,9 +1,12 @@
+/* body style */
 body {
     font-family: "Lora", serif;
     font-weight: 500;
     font-style: normal;
+    color: #15d448;
 }
 
+/* heading 1 Style */
 h1 {
     font-family: "Merriweather", serif;
     font-weight: 600;
@@ -11,5 +14,9 @@ h1 {
     font-style: normal;
     color: green;
     text-align: center;
+}
+
+h2 {
+    font-size: 75px;
 }
 
