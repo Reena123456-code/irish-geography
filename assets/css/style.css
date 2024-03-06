@@ -16,10 +16,12 @@ h1 {
     text-align: center;
 }
 
+/* h2 style */
 h2 {
     font-size: 75px;
 }
 
+/* button style */
 button {
     width: 100px;
     height: 50px;
