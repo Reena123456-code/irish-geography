@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("button") === "start") {
+
                 alert(county());
             }
         })
@@ -19,44 +20,110 @@ function randomNumber(min, max) {
 }
 
 // matching numbers to counties using switch
-function countyName(county1, num) {
-    let county = {
-        Antrim: 1,
-        Armagh: 2,
-        Carlow: 3,
-        Cavan: 4,
-        Clare: 5,
-        Cork: 6,
-        Donegal: 7,
-        Down: 8,
-        Dublin: 9,
-        Fermanagh: 10,
-        Galway: 11,
-        Kerry: 12,
-        Kildare: 13,
-        Kilkenny: 14,
-        Laois: 15,
-        Leitrim: 16,
-        Limerick: 17,
-        Londonderry: 18,
-        Longford: 19,
-        Louth: 20, 
-        Mayo: 21,
-        Meath: 22,
-        Monaghan: 23,
-        Offaly: 24,
-        Roscommon:25,
-        Sligo :26,
-        Tipperary: 27,
-        Tyrone: 28,
-        Waterford: 29,
-        Westmeath: 30,
-        Wexford: 31,
-        Wicklow: 32,
+function county(countyName, num) {
+    switch (num) {
+        case "1":
+            alert("Antrim")
+            break;
+        case "2":
+            alert("Armagh")
+            break;
+        case "3":
+            alert("Carlow")
+            break;
+        case "4":
+            alert("Cavan")
+            break;
+        case "5":
+            alert("Clare")
+            break;
+        case "6":
+            alert("Cork")
+            break;
+        case "7":
+           alert("Donegal")
+           break;
+        case "8":
+            alert("Down")
+            break;
+        case "9":
+            alert("Dublin")
+            break;
+        case "10":
+            alert("Fermanagh")
+            break;
+        case "11":   
+            alert("Galway")
+            break;
+        case "12":
+            alert("Kerry")
+            break;
+        case "13":
+            alert("Kildare")
+            break;
+        case "14":   
+            alert("Kilkenny") 
+            break;
+        case "15":
+            alert("Laois")
+            break;
+        case "16":     
+            alert("Leitrim")
+            break;
+        case "17":    
+            alert("Limerick")
+            break;
+        case "18":    
+            alert("Londonderry")
+            break;
+        case "19":    
+            alert("Longford")
+            break;
+        case "20":    
+            alert("Louth")
+            break;
+        case "21":     
+            alert("Mayo")
+            break;
+        case "22":    
+            alert("Meath")
+            break;
+        case "23":     
+            alert("Monaghan")
+            break;
+        case "24":     
+            alert("Offaly")
+            break;
+        case "25":    
+            alert("Roscommon")
+            break;
+        case "26":    
+            alert("Sligo")
+            break; 
+        case "27":
+            alert("Tipperary")
+            break;
+        case "28":     
+            alert("Tyrone")
+            break; 
+        case "29":
+            alert("Waterford")
+            break;
+        case "30":     
+            alert("Westmeath")
+            break; 
+        case "31":
+            alert("Wexford")
+            break;
+        case "32":
+            alert("Wicklow")
+            break;
     }
-    return county;
-}
-console.log(countyName);
+
+ 
+  
+ 
+console.log(county());
 
 
 function checkAnswer() {
@@ -66,11 +133,10 @@ function checkAnswer() {
 function correctAnswer() {
 
 }
-
+}
 function wrongAnswer() {
 
 }
 
 function calculateResult() {
-
 }
