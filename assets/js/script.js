@@ -16,12 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
 function randomNumber(min, max) {
     min = Math.ceil(1);
     max = Math.floor(32);
-    return Math.floor(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * (max - min)) + 32;
 }
 
 // matching numbers to counties using switch
 function county(countyName, num) {
-    switch (num) {
+    switch (randomNumbernum) {
         case "1":
             alert("Antrim")
             break;
@@ -118,16 +118,15 @@ function county(countyName, num) {
         case "32":
             alert("Wicklow")
             break;
+    console.log(county());
     }
 
- 
-  
- 
-console.log(county());
-
-
 function checkAnswer() {
-
+  if (county() = True) {
+    alert("correct");
+ } else{
+    alert("incorrect");
+ }
 }
 
 function correctAnswer() {
