@@ -29,3 +29,273 @@ button {
     color: white;
     font-size: larger;
 }
+
+/*images*/
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 2px solid green;
+    z-index: 1;
+}
+
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid red;
+    z-index: 2;
+}
+
+.image3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid blue;
+    z-index: 3;
+}
+
+.image4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid pink;
+    z-index: 4;
+}
+
+.image5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid orange;
+    z-index: 5;
+}
+
+.image6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid yellow;
+    z-index: 6;
+}
+
+.image7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid purple;
+    z-index: 7;
+}
+
+.image8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid yellowgreen;
+    z-index: 8;
+}
+
+.image9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid grey;
+    z-index: 9;
+}
+
+.image10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid lightblue;
+    z-index: 10;
+}
+
+.image11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid paleturquoise;
+    z-index: 11;
+}
+
+.image12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid palevioletred;
+    z-index: 12;
+}
+
+.image13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid chocolate;
+    z-index: 13;
+}
+
+.image14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid cadetblue;
+    z-index: 14;
+}
+
+.image15 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid khaki;
+    z-index: 15;
+}
+
+.image16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid chartreuse;
+    z-index: 16;
+}
+
+.image17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(163, 23, 63);
+    z-index: 17;
+}
+
+.image18 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid paleturquoise;
+    z-index: 18;
+}
+
+.image19 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid paleturquoise;
+    z-index: 19;
+}
+
+.image20 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(61, 18, 2);
+    z-index: 20;
+}
+
+.image21 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid paleturquoise;
+    z-index: 21;
+}
+
+.image22 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid forestgreen;
+    z-index: 22;
+}
+
+.image23 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid orangered;
+    z-index: 23;
+}
+
+.image24 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid plum;
+    z-index: 24;
+}
+
+.image25 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid violet;
+    z-index: 25;
+}
+
+.image26 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid darkblue;
+    z-index: 26;
+}
+
+.image27 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid cornsilk;
+    z-index: 27;
+}
+.image28 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid palevioletred;
+    z-index: 28;
+}
+
+.image29 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid tan;
+    z-index: 29;
+}
+.image30 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid aqua;
+    z-index: 30;
+}
+
+.image31 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid teal;
+    z-index: 31;
+}
+.image32 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid primrose;
+    z-index: 32;
+}
+
+
+
+
+
+
+
+/*.county {
+    border: 4px solid red;
+}*/
