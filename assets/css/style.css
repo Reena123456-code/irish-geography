@@ -286,10 +286,16 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid primrose;
+    border: 2px maroon;
     z-index: 32;
 }
-
+.image33 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid fuchsia;
+    z-index: 33;
+}
 
 
 
