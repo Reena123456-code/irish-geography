@@ -1,16 +1,7 @@
 // Loading game to dom before starting game
 document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
-
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("button") === "start") {
-
-                alert(county());
-            }
-        })
-    }
-})
+    document.getElementById("btn").addEventListener("click", function () );
+});
 
 // selecting county using math random
 function randomNumber() {
@@ -18,12 +9,11 @@ function randomNumber() {
     randomNumber:
     for (let i = 1; i <= 32; i++) {
         do {
-            randomNumber = Math.floor(Math.random() * 32) + 1:
+            randomNumber = Math.floor(Math.random() * 32) + 1;
         } while (exists[randomNumber]);
         exists[randomNumber] = true;
         alert(randomNumber);
     }
-
 }
 
 // matching numbers to counties using switch
