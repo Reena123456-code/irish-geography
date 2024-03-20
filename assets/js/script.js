@@ -28,6 +28,7 @@ function checkAnswer() {
     } else {
        alert("Please try again, This is counties()");
     }
+    
 }
 
 function correctAnswer() {
