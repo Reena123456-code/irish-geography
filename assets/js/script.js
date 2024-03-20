@@ -20,10 +20,10 @@ counties()
 
 function checkAnswer() {
 
-    if (county() = True) {
+    if (image() == county()) = True) {
         alert("correct");
     } else {
-        alert("incorrect");
+       alert("Please try again, This is county()");
     }
 }
 
