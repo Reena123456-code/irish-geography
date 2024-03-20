@@ -1,6 +1,8 @@
 // Loading game to dom before starting game
 document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("btn").addEventListener("click", function() );
+    document.getElementById("btn").addEventListener("click", counties); 
+    document.getElementClass("images").addEventListener("onClick", counties)
+
 });
 
 
@@ -12,28 +14,24 @@ const county = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Donegal
     "Sligo", "Tipperary", "Tyrone", "Waterford", "Westmeath", "Wexford", "Wicklow"];
 
 function counties() {
-    alert(county[(Math.floor(Math.random() * county.length))]);
+       alert(county[(Math.floor(Math.random() * county.length))]) 
+    };
+
+function onClick() {
+      if (image === counties) {
+   }
 }
-counties()
-
-
 
 function checkAnswer() {
-
-    if (image() == county()) = True) {
+    if (image == counties) {
         alert("correct");
     } else {
-       alert("Please try again, This is county()");
+       alert("Please try again, This is counties()");
     }
 }
 
 function correctAnswer() {
-
-}
-
-function wrongAnswer() {
-
-}
-
-function calculateResult() {
-}
+    let correct = correct++;
+    let total = 32;
+    alert(correct, total);
+    };
