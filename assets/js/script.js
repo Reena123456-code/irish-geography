@@ -18,6 +18,8 @@ function counties() {
     };
 
 function onClick() {
+    var image =["image2", "image3", "image4", "image5", "image6", "image7", "image8", "image9", "image10", "image11", "image12", "image13", "image14", "image15", "image16",
+"image17", "image18", "image19", "image20", "image21", "image22", "image23", "image24", "image25", "image26", "image27", "image28", "image29", "image30", "image31", "image32", "image33"];
       if (image === counties) {
    }
 }
@@ -28,7 +30,7 @@ function checkAnswer() {
     } else {
        alert("Please try again, This is counties()");
     }
-    
+
 }
 
 function correctAnswer() {
