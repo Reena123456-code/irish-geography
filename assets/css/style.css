@@ -49,7 +49,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid red;
     z-index: 2;
 }
 
@@ -57,7 +56,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid blue;
     z-index: 3;
 }
 
@@ -65,7 +63,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid pink;
     z-index: 4;
 }
 
@@ -73,7 +70,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid orange;
     z-index: 5;
 }
 
@@ -81,7 +77,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid yellow;
     z-index: 6;
 }
 
@@ -89,7 +84,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid purple;
     z-index: 7;
 }
 
@@ -97,7 +91,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid yellowgreen;
     z-index: 8;
 }
 
@@ -105,7 +98,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid grey;
     z-index: 9;
 }
 
@@ -113,7 +105,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid lightblue;
     z-index: 10;
 }
 
@@ -121,7 +112,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid paleturquoise;
     z-index: 11;
 }
 
@@ -129,7 +119,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid palevioletred;
     z-index: 12;
 }
 
@@ -137,7 +126,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid chocolate;
     z-index: 13;
 }
 
@@ -145,7 +133,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid cadetblue;
     z-index: 14;
 }
 
@@ -153,7 +140,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid khaki;
     z-index: 15;
 }
 
@@ -161,7 +147,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid chartreuse;
     z-index: 16;
 }
 
@@ -169,7 +154,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid rgb(163, 23, 63);
     z-index: 17;
 }
 
@@ -177,7 +161,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid paleturquoise;
     z-index: 18;
 }
 
@@ -185,7 +168,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid paleturquoise;
     z-index: 19;
 }
 
@@ -193,7 +175,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid rgb(61, 18, 2);
     z-index: 20;
 }
 
@@ -201,7 +182,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid paleturquoise;
     z-index: 21;
 }
 
@@ -209,7 +189,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid forestgreen;
     z-index: 22;
 }
 
@@ -217,7 +196,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid orangered;
     z-index: 23;
 }
 
@@ -225,7 +203,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid plum;
     z-index: 24;
 }
 
@@ -233,7 +210,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid violet;
     z-index: 25;
 }
 
@@ -241,7 +217,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid darkblue;
     z-index: 26;
 }
 
@@ -249,14 +224,12 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid cornsilk;
     z-index: 27;
 }
 .image28 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid palevioletred;
     z-index: 28;
 }
 
@@ -264,14 +237,12 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid tan;
     z-index: 29;
 }
 .image30 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid aqua;
     z-index: 30;
 }
 
@@ -279,21 +250,18 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid teal;
     z-index: 31;
 }
 .image32 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px maroon;
     z-index: 32;
 }
 .image33 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid fuchsia;
     z-index: 33;
 }
 
