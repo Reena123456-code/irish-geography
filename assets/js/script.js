@@ -1,8 +1,9 @@
 // Loading game to dom before starting game
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("btn").addEventListener("click", counties);
-    document.getElementClass("images").addEventListener("onClick", counties);
     document.getElementClass("parent").Event("Click", image).innerHTML.county;
+    image.addEventListener("click", );
+
 });
 
 
@@ -51,7 +52,11 @@ var image31 = "westmeath";
 var image32 = "Wexford";
 var image33 = "image33";
 
-function onClick() {
+function onclick() {
+    image.onclick = function(Answer)
+}
+
+function Answer() {
     if (image == county) {
         alert("correct");
         image.style.backgroundColor = green;
@@ -63,10 +68,7 @@ function onClick() {
     }
 }
     
-
-
-
-function correctAnswer() {
+function score() {
     let correct = correct++;
     let total = 32;
     alert(correct, total);
