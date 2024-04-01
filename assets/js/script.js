@@ -1,9 +1,8 @@
 // Loading game to dom before starting game
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("btn").addEventListener("click", counties);
-    document.getElementClass("parent").Event("Click", image).innerHTML.county;
-    image.addEventListener("click", );
-
+    /*document.getElementClass("parent").Event("Click", image).innerHTML.county;
+    image.addEventListener("click", );*/
 });
 
 
@@ -18,8 +17,7 @@ function counties() {
     alert(county[(Math.floor(Math.random() * county.length))])
 };
 
-
-var image2 = "Antrim";
+/*var image2 = "Antrim";
 var image3 = "Armagh";
 var image4 = "Carlow";
 var image5 = "Cavan";
@@ -72,4 +70,4 @@ function score() {
     let correct = correct++;
     let total = 32;
     alert(correct, total);
-};
+};*/
