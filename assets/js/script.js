@@ -16,43 +16,16 @@ const county = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Donegal
 function counties() {
     alert(county[(Math.floor(Math.random() * county.length))])
 };
-
-/*var image2 = "Antrim";
-var image3 = "Armagh";
-var image4 = "Carlow";
-var image5 = "Cavan";
-var image6 = "Clare";
-var image7 = "Cork";
-var image8 = "Donegal";
-var image9 = "Down";
-var image10 = "Dublin";
-var image11 = "Fermanagh";
-var image12 = "Galway";
-var image13 = "Kerry";
-var image14 = "Kildare";
-var image15 = "Kilkenny";
-var image16 = "Laois";
-var image17 = "Leitrim";
-var image18 = "Limerick";
-var image29 = "Londonderry";
-var image20 = "Longford";
-var image21 = "Louth";
-var image22 = "Mayo";
-var image23 = "Meath";
-var image24 = "Monaghan";
-var image25 = "Offaly";
-var image26 = "Roscommon";
-var image27 = "Sligo";
-var image28 = "Tipperary";
-var image39 = "Tyrone";
-var image30 = "Waterford";
-var image31 = "westmeath";
-var image32 = "Wexford";
-var image33 = "image33";
+const image ={"image2": Antrim, "image3": Armagh, "image4": Carlow, "image5": Cavan, "image6": Clare, "image7": Cork, "image8": Donegal,
+"image9": Down, "image10": Dublin, "image11": Fermanagh, "image12": Galway, "image13": Kerry, "image14": Kildare, "image15": Kilkenny, "image16": Laois,"image17": Leitrim, "image18": Limerick,
+"image29": Londonderry, "image20": Longford, "image21": Louth, "image22": Mayo, "image23": Meath, "image24": Monaghan,
+"image25": Offaly, "image26": Roscommon, "image27": Sligo, "image28": Tipperary, "image29": Tyrone,
+"image30": Waterford, "image31": Westmeath, "image32": Wexford,
+"image33": Wicklow};
 
 function onclick() {
     image.onclick = function(Answer)
-}
+};
 
 function Answer() {
     if (image == county) {
@@ -70,4 +43,4 @@ function score() {
     let correct = correct++;
     let total = 32;
     alert(correct, total);
-};*/
+}
