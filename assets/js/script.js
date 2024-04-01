@@ -1,8 +1,7 @@
 // Loading game to dom before starting game
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("btn").addEventListener("click", counties);
-    /*document.getElementClass("parent").Event("Click", image).innerHTML.county;
-    image.addEventListener("click", );*/
+    const image = docoment.getElementByClass("parent").innerHTML;
 });
 
 // matching numbers to counties using switch
@@ -15,15 +14,15 @@ function counties() {
     alert(county[(Math.floor(Math.random() * county.length))])
 };
 
-const image ={"image2": Antrim, "image3": Armagh, "image4": Carlow, "image5": Cavan, "image6": Clare, "image7": Cork, "image8": Donegal,
-"image9": Down, "image10": Dublin, "image11": Fermanagh, "image12": Galway, "image13": Kerry, "image14": Kildare, "image15": Kilkenny, "image16": Laois,"image17": Leitrim, "image18": Limerick,
-"image19": Londonderry, "image20": Longford, "image21": Louth, "image22": Mayo, "image23": Meath, "image24": Monaghan,
-"image25": Offaly, "image26": Roscommon, "image27": Sligo, "image28": Tipperary, "image29": Tyrone,
-"image30": Waterford, "image31": Westmeath, "image32": Wexford,
-"image33": Wicklow};
+const image = {
+    "Antrim": image2, "Armagh": image3, "Carlow": image4, "Cavan": image5, "Clare": image6, "Cork": image7, "Donegal": image8, "Down": image9, "Dublin": image10,
+    "Fermanagh": image11, "Galway": image12, "Kerry": image13, "Kildare": image14, "Kilkenny": image15, "Laois": image16, "Leitrim": image17, "Limerick": image18,
+    "Londonderry": image19, "Longford": image20, "Louth": image21, "Mayo": image22, "Meath": image23, "Monaghan": image24,
+    "Offaly": image25, "Roscommon": image26, "Sligo": image27, "Tipperary": image28, "Tyrone": image29,
+    "Waterford": image30, "Westmeath": image31, "Wexford": image32, "Wicklow": image33
+};
 
 function onclick() {
-    image.onclick = function(Answer)
 };
 
 function Answer() {
@@ -34,10 +33,10 @@ function Answer() {
         alert("incorrect, county");
         image.style.backgroundColor = orange;
 
-   return counties();     
+        return counties();
     }
 }
-    
+
 function score() {
     let correct = correct++;
     let total = 32;
