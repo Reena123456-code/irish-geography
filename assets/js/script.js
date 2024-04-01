@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     image.addEventListener("click", );*/
 });
 
-
-
 // matching numbers to counties using switch
 
 const county = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Down", "Dublin", "Fermanagh", "Galway", "Kerry", "Kildare",
@@ -16,9 +14,10 @@ const county = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Donegal
 function counties() {
     alert(county[(Math.floor(Math.random() * county.length))])
 };
+
 const image ={"image2": Antrim, "image3": Armagh, "image4": Carlow, "image5": Cavan, "image6": Clare, "image7": Cork, "image8": Donegal,
 "image9": Down, "image10": Dublin, "image11": Fermanagh, "image12": Galway, "image13": Kerry, "image14": Kildare, "image15": Kilkenny, "image16": Laois,"image17": Leitrim, "image18": Limerick,
-"image29": Londonderry, "image20": Longford, "image21": Louth, "image22": Mayo, "image23": Meath, "image24": Monaghan,
+"image19": Londonderry, "image20": Longford, "image21": Louth, "image22": Mayo, "image23": Meath, "image24": Monaghan,
 "image25": Offaly, "image26": Roscommon, "image27": Sligo, "image28": Tipperary, "image29": Tyrone,
 "image30": Waterford, "image31": Westmeath, "image32": Wexford,
 "image33": Wicklow};
