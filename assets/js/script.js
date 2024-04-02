@@ -1,7 +1,6 @@
 // Loading game to dom before starting game
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("btn").addEventListener("click", counties);
-    const image = docoment.getElementByClass("parent").innerHTML;
 });
 
 // matching numbers to counties using switch
@@ -12,7 +11,7 @@ const county = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Donegal
 
 function counties() {
     alert(county[(Math.floor(Math.random() * county.length))])
-};
+}
 
 const image = {
     "Antrim": image2, "Armagh": image3, "Carlow": image4, "Cavan": image5, "Clare": image6, "Cork": image7, "Donegal": image8, "Down": image9, "Dublin": image10,
