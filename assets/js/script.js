@@ -21,7 +21,8 @@ const image = {
     "Waterford": image30, "Westmeath": image31, "Wexford": image32, "Wicklow": image33
 };
 
-function onclick() {
+function mouseDown() {
+   document.getElementById("parent").style.color="blue";
 };
 
 function Answer() {
@@ -29,12 +30,14 @@ function Answer() {
         alert("correct");
         image.style.backgroundColor = green;
     } else {
-        alert("incorrect, county");
+        alert("incorrect", county);
         image.style.backgroundColor = orange;
-
+    } elseif (image != county) 
+        alert("incorrect", county);
+        image.style.backgroundColor = red;
         return counties();
-    }
-}
+    };
+
 
 function score() {
     let correct = correct++;

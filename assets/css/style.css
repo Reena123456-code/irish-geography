@@ -40,7 +40,7 @@ h2 {
 }
 
 /*images*/
-.parent {
+#parent {
     position: relative;
     top: 0;
     left: 0;
