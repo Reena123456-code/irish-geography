@@ -10,7 +10,7 @@ const county = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Donegal
     "Sligo", "Tipperary", "Tyrone", "Waterford", "Westmeath", "Wexford", "Wicklow"];
 
 function counties() {
-    alert(county[(Math.floor(Math.random() * county.length))])
+    alert((county[(Math.floor(Math.random() * county.length))]));
 }
 
 const image = {
@@ -22,7 +22,7 @@ const image = {
 };
 
 function mouseDown() {
-   document.getElementById("parent").style.color="blue";
+   document.getElementById("parent").style.backgroundColor="blue";
 };
 
 function Answer() {
